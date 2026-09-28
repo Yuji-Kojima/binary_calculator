@@ -139,7 +139,7 @@ class App():
             f2 = bin(f)
             f8 = oct(f)
             f16 = hex(f)
-            self.last_result = [f, f2, f16, f8, f2.replace("0b", ""), f16.replace("0h", ""), f8.replace("0o", "")]
+            self.last_result = [f, f2, f16, f8, f2.replace("0b", ""), f16.replace("0x", ""), f8.replace("0o", "")]
         else:
             f2 = f8 = f16 = "---"
 
